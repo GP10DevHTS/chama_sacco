@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `chama`
 --
+create Database chama;
+use chama;
 
 -- --------------------------------------------------------
 
@@ -47,7 +49,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `fname`, `lname`, `address`, `profilepic`, `contact`, `dob`, `username`, `email`, `password`, `creationdate`, `updationdate`) VALUES
-(1, 'admin', 'admin', 'my address', 'istockphoto-77931645-170667a.jpg', '712345678', '', 'admin', 'admin@gmail.com', 'ffc6c627e5533458e860427ec2e54ad1', '2019-11-14 17:36:19', '2023-01-08 11:04:23');
+(1, 'admin', 'admin', 'my address', 'istockphoto-77931645-170667a.jpg', '712345678', '', 'admin', 'igella@gmail.com', 'd6ca3fd0c3a3b462ff2b83436dda495e', '2019-11-14 17:36:19', '2023-01-08 11:04:23');
 
 -- --------------------------------------------------------
 
@@ -247,7 +249,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `username`, `dob`, `address`, `kin`, `password`, `contact`, `status`, `creationdate`, `updationdate`, `profilepic`) VALUES
-(20, 'Test', 'Test', 'test@gmail.com', 'test', '12/14/2022', '148-Kericho', 'hghghgtr', '5dd1e33dd7e4b1f9a4edc3fcb2520ab0', '712345678', 1, '2022-06-20 13:53:46', '2023-01-08 11:15:39', 'istockphoto-77931645-170667a.jpg');
+(20, 'Test', 'Test', 'doryn@gmail.com', 'test', '12/14/2022', '148-Kericho', 'hghghgtr', 'd6ca3fd0c3a3b462ff2b83436dda495e', '712345678', 1, '2022-06-20 13:53:46', '2023-01-08 11:15:39', 'istockphoto-77931645-170667a.jpg');
 
 --
 -- Indexes for dumped tables
